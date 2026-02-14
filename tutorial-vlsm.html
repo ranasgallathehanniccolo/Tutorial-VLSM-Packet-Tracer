@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tutorial VLSM con Cisco Packet Tracer (Nic)</title>
+    <title>Tutorial VLSM con Cisco Packet Tracer</title>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -821,56 +821,56 @@
                 <tr>
                     <td><code>PC-A1</code></td>
                     <td><span class="net-tag a">Rete A</span></td>
-                    <td><span class="placeholder-cell">192.168.0.______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.2</span></td>
                     <td><code>255.255.255.128</code></td>
                     <td><code>—</code></td>
                 </tr>
                 <tr>
                     <td><code>PC-A2</code></td>
                     <td><span class="net-tag a">Rete A</span></td>
-                    <td><span class="placeholder-cell">192.168.0.______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.3</span></td>
                     <td><code>255.255.255.128</code></td>
                     <td><code>—</code></td>
                 </tr>
                 <tr>
                     <td><code>PC-B1</code></td>
                     <td><span class="net-tag b">Rete B</span></td>
-                    <td><span class="placeholder-cell">192.168.0.______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.129</span></td>
                     <td><code>255.255.255.192</code></td>
                     <td><code>—</code></td>
                 </tr>
                 <tr>
                     <td><code>PC-B2</code></td>
                     <td><span class="net-tag b">Rete B</span></td>
-                    <td><span class="placeholder-cell">192.168.0.______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.130</span></td>
                     <td><code>255.255.255.192</code></td>
                     <td><code>—</code></td>
                 </tr>
                 <tr>
                     <td><code>PC-C1</code></td>
                     <td><span class="net-tag c">Rete C</span></td>
-                    <td><span class="placeholder-cell">192.168.0.______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.193</span></td>
                     <td><code>255.255.255.224</code></td>
                     <td><code>—</code></td>
                 </tr>
                 <tr>
                     <td><code>PC-C2</code></td>
                     <td><span class="net-tag c">Rete C</span></td>
-                    <td><span class="placeholder-cell">192.168.0.______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.194</span></td>
                     <td><code>255.255.255.224</code></td>
                     <td><code>—</code></td>
                 </tr>
                 <tr>
                     <td><code>PC-D1</code></td>
                     <td><span class="net-tag d">Rete D</span></td>
-                    <td><span class="placeholder-cell">192.168.0.______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.225</span></td>
                     <td><code>255.255.255.240</code></td>
                     <td><code>—</code></td>
                 </tr>
                 <tr>
                     <td><code>PC-D2</code></td>
                     <td><span class="net-tag d">Rete D</span></td>
-                    <td><span class="placeholder-cell">192.168.0.______</span></td>
+                    <td><span class="placeholder-cell">192.168.0.226</span></td>
                     <td><code>255.255.255.240</code></td>
                     <td><code>—</code></td>
                 </tr>
@@ -933,10 +933,8 @@
                 <code>Ctrl+N</code> per creare un nuovo progetto vuoto.
             </p>
             <div class="img-placeholder">
-                <div class="icon">🖥️</div>
-                <div class="label">[IMG_02] — Schermata iniziale di Packet Tracer con il workspace vuoto</div>
-                <div class="hint">Cattura la schermata di Packet Tracer appena aperto</div>
-            </div>
+                <img src="Screenshot_PacketTracer_New_File.png" style="width: 100%; height: auto;">
+            </div> 
         </div>
     </div>
 
@@ -950,9 +948,7 @@
                 Rinominalo "Switch0" facendo clic sull'etichetta.
             </p>
             <div class="img-placeholder">
-                <div class="icon">🔌</div>
-                <div class="label">[IMG_03] — Selezione e posizionamento dello switch 2960</div>
-                <div class="hint">Mostra la barra dei dispositivi con la categoria Switches evidenziata e lo switch nell'area di lavoro</div>
+                <img src="Screenshot_Switch2960.png">
             </div>
         </div>
     </div>
@@ -976,9 +972,7 @@
                 </p>
             </div>
             <div class="img-placeholder">
-                <div class="icon">💻</div>
-                <div class="label">[IMG_04] — Gli 8 PC posizionati e rinominati nell'area di lavoro</div>
-                <div class="hint">Mostra tutti gli 8 PC disposti in 4 gruppi sotto lo switch</div>
+                <img src="Screenshot_PC_Rinominati.png">
             </div>
         </div>
     </div>
@@ -1015,9 +1009,7 @@
                 </table>
             </div>
             <div class="img-placeholder">
-                <div class="icon">🔗</div>
-                <div class="label">[IMG_05] — Topologia completata: tutti i PC collegati allo switch con cavi Straight-Through</div>
-                <div class="hint">Cattura la topologia finale con tutti i collegamenti (i triangoli verdi dovrebbero apparire su ogni link)</div>
+                <img src="Screenshot_Pc_Switch_Collegati.png">
             </div>
         </div>
     </div>
@@ -1089,16 +1081,14 @@
         <div class="code-body">
 <span class="comment">/* Seleziona: ○ DHCP  ● Static */</span>
 
-IP Address:     <span class="placeholder">___192.168.0.______</span>
+IP Address:     <span class="placeholder">192.168.0.2</span>
 Subnet Mask:    255.255.255.128
 Default Gateway: <span class="comment">(lasciare vuoto)</span>
         </div>
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">⚙️</div>
-        <div class="label">[IMG_06] — Schermata IP Configuration di PC-A1 con indirizzo IP e subnet mask configurati</div>
-        <div class="hint">Cattura la finestra IP Configuration dopo aver inserito i dati per PC-A1</div>
+        <img src="Screenshot_IP_Configuration.png">
     </div>
 
     <h3>Configurazione di PC-A2</h3>
@@ -1110,7 +1100,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             PC-A2 → Desktop → IP Configuration
         </div>
         <div class="code-body">
-IP Address:     <span class="placeholder">___192.168.0.______</span>
+IP Address:     <span class="placeholder">192.168.0.3</span>
 Subnet Mask:    255.255.255.128
 Default Gateway: <span class="comment">(lasciare vuoto)</span>
         </div>
@@ -1125,7 +1115,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             PC-B1 → Desktop → IP Configuration
         </div>
         <div class="code-body">
-IP Address:     <span class="placeholder">___192.168.0.______</span>
+IP Address:     <span class="placeholder">192.168.0.129</span>
 Subnet Mask:    255.255.255.192
 Default Gateway: <span class="comment">(lasciare vuoto)</span>
         </div>
@@ -1140,7 +1130,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             PC-B2 → Desktop → IP Configuration
         </div>
         <div class="code-body">
-IP Address:     <span class="placeholder">___192.168.0.______</span>
+IP Address:     <span class="placeholder">192.168.0.130</span>
 Subnet Mask:    255.255.255.192
 Default Gateway: <span class="comment">(lasciare vuoto)</span>
         </div>
@@ -1155,7 +1145,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             PC-C1 → Desktop → IP Configuration
         </div>
         <div class="code-body">
-IP Address:     <span class="placeholder">___192.168.0.______</span>
+IP Address:     <span class="placeholder">192.168.0.193</span>
 Subnet Mask:    255.255.255.224
 Default Gateway: <span class="comment">(lasciare vuoto)</span>
         </div>
@@ -1170,7 +1160,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             PC-C2 → Desktop → IP Configuration
         </div>
         <div class="code-body">
-IP Address:     <span class="placeholder">___192.168.0.______</span>
+IP Address:     <span class="placeholder">192.168.0.194</span>
 Subnet Mask:    255.255.255.224
 Default Gateway: <span class="comment">(lasciare vuoto)</span>
         </div>
@@ -1185,7 +1175,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             PC-D1 → Desktop → IP Configuration
         </div>
         <div class="code-body">
-IP Address:     <span class="placeholder">___192.168.0.______</span>
+IP Address:     <span class="placeholder">192.168.0.225</span>
 Subnet Mask:    255.255.255.240
 Default Gateway: <span class="comment">(lasciare vuoto)</span>
         </div>
@@ -1200,16 +1190,14 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             PC-D2 → Desktop → IP Configuration
         </div>
         <div class="code-body">
-IP Address:     <span class="placeholder">___192.168.0.______</span>
+IP Address:     <span class="placeholder">192.168.0.226</span>
 Subnet Mask:    255.255.255.240
 Default Gateway: <span class="comment">(lasciare vuoto)</span>
         </div>
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">✅</div>
-        <div class="label">[IMG_07] — Panoramica della topologia con tutti i PC configurati</div>
-        <div class="hint">Mostra la topologia completa; opzionalmente, posiziona il mouse su un PC per vedere il tooltip con l'IP</div>
+        <img src="Screenshot_Topologia.png" style="width: 100%; height: auto;">
     </div>
 
     <div class="exercise-box">
@@ -1259,16 +1247,16 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
                     PC-A1 > Command Prompt
                 </div>
                 <div class="code-body">
-<span class="cmd">C:\&gt;</span> ping <span class="placeholder">192.168.0.______</span>
+<span class="cmd">C:\&gt;</span> ping <span class="placeholder">192.168.0.3</span>
 
-<span class="output">Pinging 192.168.0.______ with 32 bytes of data:</span>
+<span class="output">Pinging 192.168.0. with 32 bytes of data:</span>
 
-<span class="output">Reply from 192.168.0.______: bytes=32 time&lt;1ms TTL=128</span>
-<span class="output">Reply from 192.168.0.______: bytes=32 time&lt;1ms TTL=128</span>
-<span class="output">Reply from 192.168.0.______: bytes=32 time&lt;1ms TTL=128</span>
-<span class="output">Reply from 192.168.0.______: bytes=32 time&lt;1ms TTL=128</span>
+<span class="output">Reply from 192.168.0.3: bytes=32 time&lt;1ms TTL=128</span>
+<span class="output">Reply from 192.168.0.3: bytes=32 time&lt;1ms TTL=128</span>
+<span class="output">Reply from 192.168.0.3: bytes=32 time&lt;1ms TTL=128</span>
+<span class="output">Reply from 192.168.0.3: bytes=32 time&lt;1ms TTL=128</span>
 
-<span class="output">Ping statistics for 192.168.0.______:</span>
+<span class="output">Ping statistics for 192.168.0.3:</span>
 <span class="output">    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)</span>
                 </div>
             </div>
@@ -1285,9 +1273,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">📟</div>
-        <div class="label">[IMG_08] — Output del comando ping da PC-A1 verso PC-A2 (successo)</div>
-        <div class="hint">Cattura il Command Prompt di PC-A1 mostrando il ping riuscito con 4 Reply</div>
+        <img src="Screenshot_Ping_Successo.png">
     </div>
 
     <div class="exercise-box">
@@ -1302,21 +1288,15 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">📟</div>
-        <div class="label">[IMG_09] — Output del ping tra PC-B1 e PC-B2 (successo)</div>
-        <div class="hint">Cattura il risultato del ping nella Rete B</div>
+        <img src="Screenshot_Ping_B.png">
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">📟</div>
-        <div class="label">[IMG_10] — Output del ping tra PC-C1 e PC-C2 (successo)</div>
-        <div class="hint">Cattura il risultato del ping nella Rete C</div>
+        <img src="Screenshot_Ping_C.png">
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">📟</div>
-        <div class="label">[IMG_11] — Output del ping tra PC-D1 e PC-D2 (successo)</div>
-        <div class="hint">Cattura il risultato del ping nella Rete D</div>
+        <img src="Screenshot_Ping_D.png">
     </div>
 </section>
 
@@ -1344,9 +1324,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
                 Clicca su <strong>Simulation</strong> per passare alla modalità di simulazione.
             </p>
             <div class="img-placeholder">
-                <div class="icon">⏱️</div>
-                <div class="label">[IMG_12] — Il pannello Simulation Mode con il pulsante evidenziato</div>
-                <div class="hint">Mostra la barra inferiore di Packet Tracer con la scheda Simulation selezionata</div>
+                <img src="Screenshot_SimulationMode.png">
             </div>
         </div>
     </div>
@@ -1362,9 +1340,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
                 e altro che potrebbe confondere l'analisi.
             </p>
             <div class="img-placeholder">
-                <div class="icon">🔍</div>
-                <div class="label">[IMG_13] — Filtro protocolli impostato su ICMP nella Simulation Mode</div>
-                <div class="hint">Mostra la finestra Edit Filters con solo ICMP selezionato</div>
+                <img src="Screenshot_Filtro.png">
             </div>
         </div>
     </div>
@@ -1383,9 +1359,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
                 <strong>Capture/Forward</strong>.
             </p>
             <div class="img-placeholder">
-                <div class="icon">✉️</div>
-                <div class="label">[IMG_14] — PDU (busta) creata su PC-A1, pronta per essere inviata</div>
-                <div class="hint">Mostra la busta apparsa sopra PC-A1 nella topologia</div>
+                <img src="Screenshot_Pc_Busta.png">
             </div>
         </div>
     </div>
@@ -1404,9 +1378,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
                 fai clic sulla riga corrispondente per aprire i <strong>dettagli del pacchetto</strong>.
             </p>
             <div class="img-placeholder">
-                <div class="icon">📋</div>
-                <div class="label">[IMG_15] — Event List con il pacchetto ICMP catturato</div>
-                <div class="hint">Mostra l'Event List con le righe dei pacchetti ICMP; evidenzia la riga su cui cliccare</div>
+                <img src="Screenshot_EventList.png" style="width: 100%; height: auto;">
             </div>
         </div>
     </div>
@@ -1448,11 +1420,11 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             </div>
             <div class="packet-field">
                 <span class="field-name">Src MAC Address</span>
-                <span class="field-value" style="color: var(--accent-pink);">____:____:____  (MAC di PC-A1)</span>
+                <span class="field-value" style="color: var(--accent-pink);">00E0:F773:6A1E  (MAC di PC-A1)</span>
             </div>
             <div class="packet-field">
                 <span class="field-name">Dest MAC Address</span>
-                <span class="field-value" style="color: var(--accent-pink);">____:____:____  (MAC di PC-A2)</span>
+                <span class="field-value" style="color: var(--accent-pink);">00E0:B028:087D  (MAC di PC-A2)</span>
             </div>
             <div class="packet-field">
                 <span class="field-name">EtherType</span>
@@ -1483,11 +1455,11 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
             </div>
             <div class="packet-field">
                 <span class="field-name">Source IP</span>
-                <span class="field-value" style="color: var(--accent-pink);">192.168.0.______  (IP di PC-A1)</span>
+                <span class="field-value" style="color: var(--accent-pink);">192.168.0.2  (IP di PC-A1)</span>
             </div>
             <div class="packet-field">
                 <span class="field-name">Destination IP</span>
-                <span class="field-value" style="color: var(--accent-pink);">192.168.0.______  (IP di PC-A2)</span>
+                <span class="field-value" style="color: var(--accent-pink);">192.168.0.3  (IP di PC-A2)</span>
             </div>
         </div>
 
@@ -1512,15 +1484,12 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">🔬</div>
-        <div class="label">[IMG_16] — Finestra PDU Information: scheda OSI Model con i dettagli di ogni livello</div>
-        <div class="hint">Cattura la schermata PDU Information espansa con tutti i livelli visibili</div>
+        <img src="Screenshot_PDU_OSI.png">
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">🔬</div>
-        <div class="label">[IMG_17] — Finestra PDU Information: scheda Inbound/Outbound PDU Details</div>
-        <div class="hint">Cattura la scheda che mostra i dettagli in formato tabellare (Inbound PDU / Outbound PDU)</div>
+		<img src="Screenshot_PDU_IN.png">
+        <img src="Screenshot_PDU_OUT.png">
     </div>
 
     <div class="info-box">
